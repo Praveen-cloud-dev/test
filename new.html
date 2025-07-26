@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World Centered</title>
+    <title>Hello World Centered v10</title>
     <style>
         html, body {
             height: 100%;
@@ -23,6 +23,16 @@
             text-align: center;
         }
     </style>
+    <script>
+        // Style init: runs when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.background = '#fff';
+            document.body.style.display = 'flex';
+            document.body.style.justifyContent = 'center';
+            document.body.style.alignItems = 'center';
+            document.body.style.height = '100vh';
+        });
+    </script>
 </head>
 <body>
     <div class="huge-text">Hello World</div>
